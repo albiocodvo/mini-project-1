@@ -33,18 +33,12 @@ img {
 }
 
 .jumbotron {
+  background-image: url(/images/home1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 90vh;
-}
-
-.back-video {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
+  height: 80vh;
 }
 
 .jumbotron h1 {
@@ -53,17 +47,20 @@ img {
   color: #000;
 }
 
+.jumbotron-services {
+  background-image: url(/images/final\ blue\ paint.png);
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
 #about {
   border: #17a2b8;
-  border-style: dotted;
+  border-style: ridge;
+  border-width: 10px;
 }
 .carousel-item {
   width: 100%;
   height: 500px;
-}
-
-.section {
-  padding: 60px 0;
 }
 
 .footer {
